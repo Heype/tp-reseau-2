@@ -30,8 +30,7 @@ Durée approximative des boucles en millisecondes :
 PS C:\Users\Arno>
 
 🌞 Wireshark it
-
-[Ping ICMP] (./ping.pcapng)
+[ping]ping.pcapng
 
     le type de paquet ICMP est : Type: 8 (Echo (ping) request)
  
@@ -60,6 +59,10 @@ ping 10.10.10.210
 
 arp -a
 
+[ARP]arp.pcapng
+
+
+
 🌞 Wireshark it
 
 Découverte de serveur --->  Alors que l’adresse de destination de découverte d’envoi est diffusée 255.255.255.255 et l’adresse source est 0.0.0.0.
@@ -76,4 +79,4 @@ Reconnaissance de bail DE PI ---> Ce message indique clairement au client que vo
 
 🌞 Wireshark it
 
-[DHCP](tp-reseaux2/dhcp.pcapng)
+[DHCP]dhcp.pcapng
